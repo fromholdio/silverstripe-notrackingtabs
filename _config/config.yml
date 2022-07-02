@@ -1,0 +1,7 @@
+---
+Name: fio-notrackingtabs
+---
+
+SilverStripe\ORM\DataObject:
+  extensions:
+    fioNoTrackingTabs: Fromholdio\NoTrackingTabs\Extensions\NoTrackingTabsExtension

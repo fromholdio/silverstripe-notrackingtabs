@@ -1,0 +1,26 @@
+{
+  "name": "fromholdio/silverstripe-notrackingtabs",
+  "type": "silverstripe-vendormodule",
+  "description": "Removes link dependency tracking tabs from SilverStripe CMS data object fields.",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-notrackingtabs",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-notrackingtabs/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/vendor-plugin": "^1.0",
+    "silverstripe/cms": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\NoTrackingTabs\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
